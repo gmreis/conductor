@@ -22,4 +22,8 @@ public interface WorkflowStatusListener {
     void onWorkflowCompleted(Workflow workflow);
 
     void onWorkflowTerminated(Workflow workflow);
+
+    default void onWorkflowFinalized(Workflow workflow) {
+
+    }
 }
