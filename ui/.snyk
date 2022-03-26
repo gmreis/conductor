@@ -1,0 +1,24 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.22.1
+ignore: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  SNYK-JS-LODASH-567746:
+    - dagre-d3 > lodash:
+        patched: '2022-03-26T06:29:17.182Z'
+    - react-toastr > lodash:
+        patched: '2022-03-26T06:29:17.182Z'
+    - react-bootstrap-typeahead > lodash:
+        patched: '2022-03-26T06:29:17.182Z'
+    - react-redux > lodash:
+        patched: '2022-03-26T06:29:17.182Z'
+    - redux > lodash:
+        patched: '2022-03-26T06:29:17.182Z'
+    - dagre-d3 > graphlib > lodash:
+        patched: '2022-03-26T06:29:17.182Z'
+    - dagre-d3 > dagre > lodash:
+        patched: '2022-03-26T06:29:17.182Z'
+    - react-bootstrap-table > react-toastr > lodash:
+        patched: '2022-03-26T06:29:17.182Z'
+    - dagre-d3 > dagre > graphlib > lodash:
+        patched: '2022-03-26T06:29:17.182Z'
